@@ -1,0 +1,71 @@
+{
+  "phase": "1",
+  "phase_name": "App Foundation and Staff Access",
+  "timestamp": "2026-06-09T00:00:00Z",
+  "areas_completed": [
+    "Login and accounts",
+    "Role access",
+    "First-screen layout",
+    "Demo data"
+  ],
+  "areas_remaining": [],
+  "decisions": {
+    "Login and accounts": [
+      {
+        "question": "How should staff sign in?",
+        "answer": "Email login with simple password rules (minimum 6 characters), with seeded staff accounts in data.sql.",
+        "options_presented": [
+          "Username login",
+          "Email login",
+          "External auth"
+        ]
+      }
+    ],
+    "Role access": [
+      {
+        "question": "How should Admin and Librarian responsibilities split?",
+        "answer": "Admin manages staff and members; Librarian manages books and borrowing.",
+        "options_presented": [
+          "Admin only",
+          "Admin + Librarian split",
+          "Shared access"
+        ]
+      }
+    ],
+    "First-screen layout": [
+      {
+        "question": "What should users see after login?",
+        "answer": "A dashboard-only landing page with quick metric cards.",
+        "options_presented": [
+          "Dashboard home",
+          "Direct CRUD landing",
+          "Empty shell"
+        ]
+      }
+    ],
+    "Demo data": [
+      {
+        "question": "Should Phase 1 include starter demo data?",
+        "answer": "Yes, include basic sample users and starter books in data.sql.",
+        "options_presented": [
+          "Seed data",
+          "Manual setup",
+          "No demo data"
+        ]
+      }
+    ]
+  },
+  "deferred_ideas": [],
+  "canonical_refs": [
+    ".planning/PROJECT.md",
+    ".planning/REQUIREMENTS.md",
+    ".planning/ROADMAP.md",
+    ".planning/STATE.md",
+    ".planning/research/SUMMARY.md",
+    ".planning/research/STACK.md",
+    ".planning/research/FEATURES.md",
+    ".planning/research/ARCHITECTURE.md",
+    ".planning/research/PITFALLS.md",
+    "AGENTS.md"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "SessionStart": [
+    {
+      "hooks": [
+        {
+          "type": "command",
+          "command": "\"/usr/bin/node\" \"/home/dipta/isd-project/.codex/hooks/gsd-check-update.js\""
+        }
+      ]
+    }
+  ],
+  "SubagentStart": [
+    {
+      "hooks": [
+        {
+          "type": "command",
+          "command": "\"/usr/bin/node\" \"/home/dipta/isd-project/.codex/hooks/gsd-context-monitor.js\"",
+          "timeout": 10
+        }
+      ]
+    }
+  ],
+  "Stop": [
+    {
+      "hooks": [
+        {
+          "type": "command",
+          "command": "\"/usr/bin/node\" \"/home/dipta/isd-project/.codex/hooks/gsd-context-monitor.js\"",
+          "timeout": 10
+        }
+      ]
+    }
+  ],
+  "PostToolUse": [
+    {
+      "hooks": [
+        {
+          "type": "command",
+          "command": "\"/usr/bin/node\" \"/home/dipta/isd-project/.codex/hooks/gsd-context-monitor.js\"",
+          "timeout": 10
+        }
+      ]
+    }
+  ]
+}
