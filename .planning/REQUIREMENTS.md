@@ -104,44 +104,44 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| AUTH-01 | TBD | Pending |
-| AUTH-02 | TBD | Pending |
-| AUTH-03 | TBD | Pending |
-| AUTH-04 | TBD | Pending |
-| BOOK-01 | TBD | Pending |
-| BOOK-02 | TBD | Pending |
-| BOOK-03 | TBD | Pending |
-| BOOK-04 | TBD | Pending |
-| BOOK-05 | TBD | Pending |
-| BOOK-06 | TBD | Pending |
-| MEMB-01 | TBD | Pending |
-| MEMB-02 | TBD | Pending |
-| MEMB-03 | TBD | Pending |
-| MEMB-04 | TBD | Pending |
-| MEMB-05 | TBD | Pending |
-| BORR-01 | TBD | Pending |
-| BORR-02 | TBD | Pending |
-| BORR-03 | TBD | Pending |
-| BORR-04 | TBD | Pending |
-| BORR-05 | TBD | Pending |
-| RETN-01 | TBD | Pending |
-| RETN-02 | TBD | Pending |
-| RETN-03 | TBD | Pending |
-| RETN-04 | TBD | Pending |
-| RETN-05 | TBD | Pending |
-| FINE-01 | TBD | Pending |
-| FINE-02 | TBD | Pending |
-| FINE-03 | TBD | Pending |
-| FINE-04 | TBD | Pending |
-| FINE-05 | TBD | Pending |
-| UI-01 | TBD | Pending |
-| UI-02 | TBD | Pending |
-| UI-03 | TBD | Pending |
+| AUTH-01 | Phase 1 | Pending |
+| AUTH-02 | Phase 1 | Pending |
+| AUTH-03 | Phase 1 | Pending |
+| AUTH-04 | Phase 1 | Pending |
+| BOOK-01 | Phase 2 | Pending |
+| BOOK-02 | Phase 2 | Pending |
+| BOOK-03 | Phase 2 | Pending |
+| BOOK-04 | Phase 2 | Pending |
+| BOOK-05 | Phase 2 | Pending |
+| BOOK-06 | Phase 2 | Pending |
+| MEMB-01 | Phase 3 | Pending |
+| MEMB-02 | Phase 3 | Pending |
+| MEMB-03 | Phase 3 | Pending |
+| MEMB-04 | Phase 3 | Pending |
+| MEMB-05 | Phase 3 | Pending |
+| BORR-01 | Phase 4 | Pending |
+| BORR-02 | Phase 4 | Pending |
+| BORR-03 | Phase 4 | Pending |
+| BORR-04 | Phase 4 | Pending |
+| BORR-05 | Phase 4 | Pending |
+| RETN-01 | Phase 5 | Pending |
+| RETN-02 | Phase 5 | Pending |
+| RETN-03 | Phase 5 | Pending |
+| RETN-04 | Phase 5 | Pending |
+| RETN-05 | Phase 5 | Pending |
+| FINE-01 | Phase 4 | Pending |
+| FINE-02 | Phase 4 | Pending |
+| FINE-03 | Phase 5 | Pending |
+| FINE-04 | Phase 5 | Pending |
+| FINE-05 | Phase 5 | Pending |
+| UI-01 | Phase 1 | Pending |
+| UI-02 | Phase 2, Phase 3, Phase 6 | Pending |
+| UI-03 | Phase 4, Phase 5, Phase 6 | Pending |
 
 **Coverage:**
 - v1 requirements: 33 total
-- Mapped to phases: 0
-- Unmapped: 33
+- Mapped to phases: 33
+- Unmapped: 0
 
 ## User Stories & Acceptance Criteria
 
@@ -171,4 +171,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-06-09*
-*Last updated: 2026-06-09 after initial definition*
+*Last updated: 2026-06-09 after roadmap traceability mapping*
